@@ -1,22 +1,56 @@
 // 🔹 Pattern 1: Basic String Handling (1–10)
 
-// Reverse a string
-let str="hello";
-console.log(str.split("").reverse.join("")) ;
-let revrseStr="" ;
-for(let i=str.length-1 ; i>=0 ; i--){
-    revrseStr+=str[i]
-}
+// // Reverse a string
+// let str="hello";
+// console.log(str.split("").reverse.join("")) ;
+// let revrseStr="" ;
+// for(let i=str.length-1 ; i>=0 ; i--){
+//     revrseStr+=str[i]
+// }
 
-console.log(revrseStr)
+// console.log(revrseStr)
+
 
 // Check if a string is palindrome
-let striSp="madam" ;
+// let striSp="madam" ;
+// let revrseStr=striSp.split("").reverse().join("") ;
+// console.log(striSp===revrseStr)
+
+
+// let s =0 ;
+// let e=striSp.length ;
+// while(s<e){
+//     if (striSp[s]!==striSp[e])
+//     { return false}
+//     else{ s++ ;
+//     e-- ;}
+   
+// }
+// return true
 
 
 // Find length of string without using length
 
+// let str="hello world"
+// console.log(str.length)
+// let l=0 ;
+// for(let i=0 ; i<str.length ; i++){
+//     l++
+// }
+// console.log(l)
+
 // Count vowels and consonants
+// let str="hello" ;
+// let v=0 ;
+// let c=0 ;
+// for(let i=0 ; i<str.length ; i++){
+//     if(str[i]==="a"||str[i]==="e"||str[i]==="i"||str[i]==="o"||str[i]==="u"){
+//         v++
+//     }else{
+//         c++
+//     }
+// }
+// console.log(v,c)
 
 // Convert lowercase to uppercase (without built-in)
 
