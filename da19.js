@@ -105,6 +105,17 @@
 // Check palindrome using two pointers
 
 // Reverse words in a string
+// let str="money" ;
+// let a=str.split("")
+// let s=0 ;
+// let e=str.length-1 ;
+// while(s<e){
+//     [a[s],a[e]]=[a[e],a[s]]
+//     s++ ;
+//     e--
+    
+// }
+// console.log(a.join(""))
 
 // Remove duplicates from a string
 
@@ -115,6 +126,7 @@
 // Reverse only alphabets in a string
 
 // Find longest palindromic substring (basic)
+
 
 // Compare two strings ignoring case
 // Pattern 3: Hashing / Frequency Map (19–28)
