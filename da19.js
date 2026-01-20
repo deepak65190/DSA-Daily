@@ -52,17 +52,54 @@
 // }
 // console.log(v,c)
 
+
 // Convert lowercase to uppercase (without built-in)
 
+// console.log(str.toUpperCase())
+// let str="helloWorld123" ;
+// let upperStr=""
+// for(let i=0 ; i<str.length ; i++){
+//     let code=str.charCodeAt(i) ;
+//     if(code>=97 && code<=122){
+//         upperStr+=String.fromCharCode(code-32)
+//     }else{
+//         upperStr+=str[i]
+//     }
+// }
+// console.log(upperStr)
+
+
 // Remove spaces from a string
+// Remove spaces from a string
+// let str="hello world" ;
+// let str2="" ;
+// for(let i=0 ; i<str.length ;i++){
+    
+//     if(str[i]&& str[i]!==" "){
+//         str2+=str[i]
+//     }
+// }
+// console.log(str2)
 
 // Check if two strings are equal
+// let a="hello" ;
+// let b="hello" ;
+// console.log(a===b)
 
 // Count words in a sentence
+// let a="hello world" ;
+// console.log(a.split(" ").length)
 
 // Find first and last character of a string
+// let a="hello" ;
+// console.log(a[0],a[a.length-1])
 
 // Replace all spaces with -
+// let str = "hello word";
+// let str2 = str.split(" ").join("-");
+// console.log(str2); 
+
+
 // Pattern 2: Two Pointer Technique (11–18)
 
 // Check palindrome using two pointers
