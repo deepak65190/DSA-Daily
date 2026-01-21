@@ -122,13 +122,47 @@
 // Check if string is valid after removing at most one character
 
 // Check if string is rotation of another
+// let str1="hello" ;
+// let str2="llohe" ;
+// if((str1+str1).includes(str2)){
+//     console.log("yes")
+// }
 
 // Reverse only alphabets in a string
 
 // Find longest palindromic substring (basic)
+//brute force
+// let str="babad" ;
+// let max=0 ;
+// let p=""
+// function palindrone(sub){
+//     let re=sub.split("").reverse().join("")
+//     if(sub===re &&max<sub.length){
+//         max=sub.length ;
+//         p=sub
+//     }
+    
+    
+// }
+// for(let i=0 ; i<str.length ; i++){
+//     for(let j=i+1 ; j<str.length ; j++){
+//         let sub = "";
+//         for(let k=i ;k<j ; k++){
+//             sub+= str[k]
+//         }
+//         palindrone(sub)
+//     }
+// }
+// console.log(p)
 
 
 // Compare two strings ignoring case
+// let str1="hello"
+// let str2="hello" ;
+// console.log(str1==str2)
+
+
+
 // Pattern 3: Hashing / Frequency Map (19–28)
 
 // Check if two strings are anagrams
