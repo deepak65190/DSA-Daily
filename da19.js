@@ -166,6 +166,11 @@
 // Pattern 3: Hashing / Frequency Map (19–28)
 
 // Check if two strings are anagrams
+// let str1="hello" ;
+// let str2="lloeh" ;
+// if(str1.split("").sort().join("")===str2.split("").sort().join("")){
+//     console.log("yes")
+// }
 
 // Find first non-repeating character
 
@@ -184,6 +189,7 @@
 // Find longest palindrome that can be built
 
 // Group anagrams
+
 // Pattern 4: Sliding Window (29–36)
 
 // Longest substring without repeating characters
@@ -214,6 +220,7 @@
 // Check if string follows pattern (abba, dog cat cat dog)
 
 // Decode encoded string (3[a2[c]])
+
 // Pattern 6: Substrings & Subsequences (43–47)
 
 // Generate all substrings of a string
