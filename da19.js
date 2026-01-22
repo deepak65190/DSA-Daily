@@ -173,6 +173,23 @@
 // }
 
 // Find first non-repeating character
+// function firstNonRepeatingChar(str) {
+//     let freq = {};
+
+//     for (let char of str) {
+//         freq[char] = (freq[char] || 0) + 1;
+//     }
+
+//     for (let char of str) {
+//         if (freq[char] === 1) return char;
+//     }
+
+//     return null; // if none found
+// }
+
+// console.log(firstNonRepeatingChar("swiss")); // "w"
+// console.log(firstNonRepeatingChar("hello")); // "h"
+
 
 // Find first repeating character
 
