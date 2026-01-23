@@ -211,6 +211,7 @@
 
 // Longest substring without repeating characters
 
+
 // Longest substring with at most K distinct characters
 
 // Count substrings with exactly K distinct characters
@@ -233,6 +234,23 @@
 // Remove consecutive duplicates
 
 // Capitalize first letter of each word
+// Capitalize first letter of each word
+// let str="hello world"
+// let a= str.split(" ") ;
+// let str2=""
+// for(let i=0 ; i<a.length ; i++){
+//     for(let j=0 ; j<a[i].length ; j++){
+//         if(j===0){
+//             let z=a[i][j]
+//             str2+=z.toUpperCase()
+//         }else{
+//             str2+=a[i][j]
+//         }
+        
+//     }
+//     str2+=" "
+// }
+// console.log(str2)
 
 // Check if string follows pattern (abba, dog cat cat dog)
 
