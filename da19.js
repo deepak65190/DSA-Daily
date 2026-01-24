@@ -228,6 +228,21 @@
 // Pattern 5: String Building / Modification (37–42)
 
 // String compression (aaabb → a3b2)
+// String compression (aaabb → a3b2)
+
+// let str="aaabb"
+// let obj={}
+// for(let char of str){
+//     obj[char]=(obj[char]||0)+1
+// }
+
+// let str2="" 
+// for(let key in obj){
+//     str2+=key 
+//     str2+=obj[key] 
+    
+// }
+// console.log(str2)
 
 // Remove all occurrences of a character
 
