@@ -271,6 +271,9 @@
 
 // Decode encoded string (3[a2[c]])
 
+
+
+
 // Pattern 6: Substrings & Subsequences (43–47)
 
 // Generate all substrings of a string
