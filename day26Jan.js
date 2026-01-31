@@ -21,3 +21,5 @@
 // let array=[1,2,3]
 // let b=[...array]
 // console.log(b)
+//hello
+console.log(console)
