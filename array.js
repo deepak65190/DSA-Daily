@@ -32,7 +32,7 @@
 
 // Copy array elements
 
-// Rotate array by 1
+// Rotate array by 1 or k
 
 // Find first and last element
 
