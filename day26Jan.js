@@ -26,9 +26,12 @@
 // Rotate array by 1 or k
 
 // let array=[1,2,3] 
-// let k=4%array.length
+// let k=4%array.lengths
 // for(let i=0 ;i<k ; i++ ){
 //     let d=array.shift()
 //     array.push(d)
 // }
 // console.log(array)
+// for(let i=arr.length-1 ; i>=0 ; i++){
+//     console.log(arr[i])
+// }
