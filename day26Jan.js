@@ -35,3 +35,27 @@
 // for(let i=arr.length-1 ; i>=0 ; i++){
 //     console.log(arr[i])
 // }
+// let a = [
+//   { cid: 1, pid: 10, amount: 100 },
+//   { cid: 2, pid: 20, amount: 200 },
+//   { cid: 1, pid: 10, amount: 100 },
+//   { cid: 2, pid: 20, amount: 200 },
+//   { cid: 3, pid: 30, amount: 100 },
+//   { cid: 3, pid: 30, amount: 600 },
+//   { cid: 4, pid: 40, amount: 6000 },
+//   { cid: 6, pid: 300, amount: 6000 }
+// ];
+
+// let sum = {};
+
+// for (let i = 0; i < a.length; i++) {
+//   let c = a[i].cid;
+//   let amt = a[i].amount;
+
+//   if (sum[c]) {
+//     sum[c] += amt;
+//   } else {
+//     sum[c] = amt;
+//   }
+// }
+// console.log(sum)
