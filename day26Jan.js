@@ -59,3 +59,8 @@
 //   }
 // }
 // console.log(sum)
+let na=[];
+for(let key in sum){
+    na.push({key:sum[key]})
+}
+console.log(na)
