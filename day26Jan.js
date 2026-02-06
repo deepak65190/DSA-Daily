@@ -64,3 +64,4 @@ for(let key in sum){
     na.push({key:sum[key]})
 }
 console.log(na)
+na.sort((a,b)=>a.amount-b.amout)
