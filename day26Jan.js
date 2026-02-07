@@ -59,9 +59,12 @@
 //   }
 // }
 // console.log(sum)
-let na=[];
-for(let key in sum){
-    na.push({key:sum[key]})
-}
-console.log(na)
-na.sort((a,b)=>a.amount-b.amout)
+// let na=[];
+// for(let key in sum){
+//     na.push({key:sum[key]})
+// }
+// console.log(na)
+// na.sort((a,b)=>a.amount-b.amout)
+// console.log(na.length-1)
+// console.log(na.length-2)
+// console.log(na.length-3)
