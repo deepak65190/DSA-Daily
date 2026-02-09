@@ -69,12 +69,12 @@
 // console.log(na.length-2)
 // console.log(na.length-3)
 
-let array=[1,2,3 ,4,5]
-let s=0;
-let e=array.length-1
-while(s<e){
-    [array[s], array[e]]=[array[e],array[s]];
-    s++ ;
-    e--
-}
-console.log(array)
+// let array=[1,2,3 ,4,5]
+// let s=0;
+// let e=array.length-1
+// while(s<e){
+//     [array[s], array[e]]=[array[e],array[s]];
+//     s++ ;
+//     e--
+// }
+// console.log(array)
