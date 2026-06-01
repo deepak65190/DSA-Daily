@@ -71,3 +71,37 @@
 for(let i=0 ; i<8 ; i++){ 
 console.log(i)
 }
+
+// let array=[1,2,3 ,4,5]
+// let s=0;
+// let e=array.length-1
+// while(s<e){
+//     [array[s], array[e]]=[array[e],array[s]];
+//     s++ ;
+//     e--
+// }
+// console.log(array)
+// Merge two sorted arrays
+
+// let a=[1,3,5]
+// let b=[2,4,6]
+// let c=[]
+// let i=0 ;
+// let j=0
+// while(i<a.length && j<b.length){
+//     if(a[i]<b[j]){
+//         c.push(a[i])
+//         i++
+//     }else{
+//         c.push(b[j])
+//         j++
+//     }}
+// while(i<a.length){
+//     c.push(a[i])
+//     i++
+// }
+// while(j<b.length){
+//     c.push(b[j])
+//     j++
+// }
+// console.log(c)
