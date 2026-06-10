@@ -65,3 +65,34 @@ for(let char of str){
     }
 }
 console.log(result)*/
+
+/*Check palindrome using two pointers
+Reverse words in a string
+Remove duplicates from a string
+Check if string is valid after removing at most one character
+Check if string is rotation of another
+Reverse only alphabets in a string
+Find longest palindromic substring (basic)
+Compare two strings ignoring case*/
+/*let str="rama"
+let obj={};
+for(let i=0 ; i<str.length ; i++){
+    let char=str[i] ;
+    if(obj[char]===undefined){
+        obj[char]=1
+    }else{
+        obj[char]+=1
+    }
+}
+
+let newStr="" ;
+for(let key in obj){
+    newStr+=key
+}
+console.log(newStr
+)*/
+
+// function rotateString(s1, s2, ) {
+   
+// }
+// console.log(rotateString("hello", "llohe", 2))
