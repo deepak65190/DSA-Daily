@@ -96,3 +96,4 @@ console.log(newStr
    
 // }
 // console.log(rotateString("hello", "llohe", 2))
+console.log("*","*")
