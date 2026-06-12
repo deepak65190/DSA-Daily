@@ -9,7 +9,7 @@
 // Find first and last character of a string
 // Replace all spaces with 1
 
-
+//done
 
 //let str="hello"
 //console.log(str.split("").reverse().join(""))
